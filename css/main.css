@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 900px) {
+    
+}
+
+@media screen and (min-width: 1075px) {
+
+}
+
+@media screen and (min-width: 1920px) {
+    
+    .fc-container-logo {
+        height: 203px;
+        width: 561px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .fc-logo-facebook {
+        padding: 0 0 16px 0;
+    }
+
+    .fc-title-logo {
+        width: 500px;
+        font-size: 28px;
+        line-height: 32px;
+    }
+}
+
+
+/* CLASES UTILITÁRIAS */
+
+.fc-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+/* CORES TEXTO E BACKGROUND */
+
+.fc-text-dark {
+    color: #1c1e21;
+}
+
+.fc-text-blue {
+    color: #1877F2;
+}
+
+.fc-text-white {
+    color: #FFF;
+}
+
+.fc-text-ligth {
+    color: #737373;
+}
+
+.fc-bc-gray {
+    background-color: #F0F2F5;
+}
+
+.fc-bc-white {
+    background-color: #FFF;
+}
+
+/* BOTÕES */
+
+.fc-btn {
+    display: table;
+    border: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition:  all 0.2s ease-out;
+    border-radius: 6px;
+}
+
+.fc-btn-large {
+    height: 53px;
+    padding: 0 200px;
+    font-size: 20px;
+    background-color: #1877F2;
+    color: #FFF;
+}
+
+.fc-btn-small {
+    height: 53px;
+    padding: 0 92px;
+    font-size: 17px;
+    background-color: #42B72A;
+    color: #FFF;
+}
+
+.fc-btn-large:hover {
+    background-color: #1870e4;
+}
+
+.fc-btn-small:hover {
+    background-color: #39a324;
+}
