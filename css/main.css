@@ -2,20 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    line-height: 1.34;
+    direction: ltr;
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
+    .fc-container-header {
+        width: 100%;
+        height: 793px;
+        display: block;
+    }
     
-}
-
-@media screen and (min-width: 1075px) {
-
-}
-
-@media screen and (min-width: 1920px) {
-    
-    .fc-container-logo {
+    .fc-logo {
         height: 203px;
         width: 561px;
         display: flex;
@@ -33,6 +32,71 @@
         font-size: 28px;
         line-height: 32px;
     }
+
+    .fc-global-footer {
+        width: 100%;
+        height: 192px;
+    }
+
+    .fc-container-footer {
+        height: 159px;
+        margin: 0px;
+        padding-top: 20px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fc-rows {
+        width: 980px;
+        margin: 0 40px;
+        display: block;
+    }
+
+    .fc-ullist {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style-type: none;
+    }
+
+    .fc-ullist li {
+        padding-left: 20px;
+    }
+
+    .fc-line-horizontal {
+        display: block;
+        border-bottom: 1px solid #dddfe2;
+        height: 8px;
+        margin-bottom: 8px;
+    }
+
+    .fc-ullist-two {
+        width: 980px;
+        height: 58px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .fc-ullist-two li {
+        padding-left: 20px;
+    }
+
+    .fc-copyright {
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+}
+
+@media screen and (min-width: 1075px) {
+}
+
+@media screen and (min-width: 1920px) {
 }
 
 
@@ -68,6 +132,13 @@
 .fc-bc-white {
     background-color: #FFF;
 }
+
+/* PADDING */
+
+.fc-pad-10 {
+    padding-left: 10px;
+}
+
 
 /* BOTÕES */
 
