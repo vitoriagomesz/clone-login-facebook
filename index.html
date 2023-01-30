@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" id="facebook">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,20 +8,53 @@
     <title>Facebook</title>
 </head>
 
-<body class="fc-bc-gray" >
+<body class="fc-bc-white" >
 
-    <header>
+    <header class="fc-bc-gray">
+
+    <div class="config-global">
 
         <div class="fc-container-header">
 
-        <div class="fc-logo">
-            <div class="fc-logo-facebook">
-                <img src="imgs/logo-facebook.svg" alt="Facebook">
+            <div class="fc-logo">
+                <div class="fc-logo-facebook">
+                    <img src="imgs/logo-facebook.svg" alt="Facebook">
+                </div>
+                <h2 class="fc-title fc-text-dark fc-title-logo">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
+            </div>  
+
+        
+            <div class="fc-form-login fc-bc-white">
+
+                <form>
+                    <div class="fc-pad-6">
+                        <input type="text" placeholder="Email ou Telefone" aria-label="Email ou Telefone" name="Email-telefone" id="fc-email-telefone" class="fc-field fc-title fc-bc-white" autocomplete="off">
+                    </div>
+                    
+                    <div class="fc-pad-6">    
+                        <input type="password" placeholder="Senha" aria-label="Senha" name="Senha" id="fc-senha" class="fc-field fc-title fc-bc-white" autocomplete="off">
+                    </div>
+
+                    <div class="fc-pad-6">
+                        <button class="fc-btn fc-btn-large fc-btn-large:hover">Entrar</button>
+                    </div>
+
+                    <div class="fc-box-forgot-pass">
+                        <a class="fc-title fc-text-blue fc-forgot-pass" href="#">Esqueceu a senha?</a>
+
+                        <div class="fc-line-horizontal-form"></div>
+                    </div>
+
+                    <div class="fc-pad-6 fc-btn-green">
+                        <button class="fc-btn fc-btn-small fc-btn-small:hover">Criar nova conta</button>
+                    </div>
+                </form>
+
             </div>
-            <h2 class="fc-title fc-text-dark fc-title-logo">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h2>
-        </div>  
 
         </div>
+
+    </div>
 
     </header>
 
