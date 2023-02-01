@@ -12,22 +12,24 @@
     .fc-container-header {
         width: 100%;
         height: 765px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     
     .fc-logo {
         height: 203px;
-        width: 561px;
+        width: 580px;
+        padding-right: 28px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
     }
 
+    .fc-logo h2 {
+        padding-bottom: 20px;
+    }
+
     .fc-logo-facebook {
-        padding: 0 0 16px 0;
+        padding: 0 0 15px 0;
     }
 
     .fc-title-logo {
@@ -35,29 +37,42 @@
         font-size: 28px;
         line-height: 32px;
     }
+    
+    .fc-position {
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 /* BOX LOGIN */
 
     .fc-form-login {
         width: 396px;
-        height: 316px;
+        height: 350px;
+        border: none;
         border-radius: 8px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10), 0 8px 16px rgba(0, 0, 0, 0.10);
         padding: 10px 0 28px;
-        margin: 40px 0 0;
+        margin: 82px 0 0;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
     }
 
     .fc-field {
-        width: 400px;
-        height: 56px;
+        width: 364px;
+        height: 52px;
+        padding: 14px 16px;
         border-radius: 6px;
         border: 1px solid #DDDFE2;
         font-size: 17px;
-        padding: 14px 16px;
+    }
+
+    .fc-box-input {
+        width: 364px;
+        margin: 0 auto;
     }
 
     .fc-box-forgot-pass {
@@ -65,13 +80,15 @@
         text-align: center;
     }
 
-    .fc-forgot-pass {
+    .fc-box-forgot-pass a {
         text-decoration: none;
         font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
     }
 
     .fc-line-horizontal-form {
-        width: 384px;
+        width: 369px;
         border-bottom: 1px solid #DADDE1;
         margin: 20px 16px;
     }
@@ -79,6 +96,18 @@
     .fc-btn-green {
         display: flex;
         justify-content: center;
+    }
+
+    .fc-link-form {
+        margin-top: 28px;
+        text-align: center;
+        width: 396px;
+    }
+
+    .fc-link-form a {
+        font-size: 14px;
+        text-decoration: none;
+        cursor: pointer;
     }
 
 /* FOOTER */
@@ -211,7 +240,7 @@
 }
 
 .fc-btn-large {
-    width: 400px;
+    width: 364px;
     padding: 0 16px;
     font-size: 20px;
     background-color: #1877F2;
@@ -219,7 +248,7 @@
 }
 
 .fc-btn-small {
-    width: 183px;
+    width: 167px;
     padding: 0 16px;
     font-size: 17px;
     background-color: #42B72A;
