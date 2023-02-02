@@ -5,9 +5,8 @@
     line-height: 1.34;
     direction: ltr;
 }
-
-
-@media screen and (min-width: 500px) {
+    
+        /*HEADER */
 
     .fc-container-header {
         width: 100%;
@@ -46,7 +45,7 @@
     }
 
 
-/* BOX LOGIN */
+        /* BOX LOGIN */
 
     .fc-form-login {
         width: 396px;
@@ -84,14 +83,14 @@
         position: relative;
     }
 
-    .fc-btn-password {
+/*     .fc-btn-password {
         width: 20px;
         height: 20px;
         position: absolute;
         top: 22px;
         right: 12px;
         cursor: pointer;
-    }
+    } */
 
 
     .fc-box-forgot-pass {
@@ -129,7 +128,7 @@
         cursor: pointer;
     }
 
-/* FOOTER */
+        /* FOOTER */
 
     .fc-global-footer {
         width: 100%;
@@ -217,17 +216,100 @@
         font-size: 11px;
     }
 
-}
+    @media screen and (max-width: 1075px) {
 
-@media screen and (min-width: 900px) {
-}
+        .fc-title-logo {
+            width: 368px;
+            height: 132px;
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
 
-@media screen and (min-width: 1075px) {
-}
+    @media screen and (max-width: 900px) {
 
-@media screen and (min-width: 1920px) {
-}
+            /*HEADER */
 
+        .fc-position {
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .fc-logo {
+            width: 400px;
+            height: 222px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .fc-logo img {
+            width: 400px;
+            height: 56px;
+        }
+    
+        .fc-logo h2 {
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            padding: 0px;
+            margin-bottom: 20px;
+        }
+
+        .fc-logo-facebook {
+            padding-bottom: 15px;
+        }
+
+        /* BOX LOGIN */
+
+        .fc-form-login {
+            margin: 0 auto;
+        }
+
+        /* FOOTER */
+    
+        .fc-container-footer {
+            width: 883px;
+            height: 139px;
+        }
+    
+        .fc-rows {
+            width: 803px;
+            height: 157px;
+            margin: 0 40px;
+        }
+
+        .fc-ullist-two {
+            width: 806px;
+            height: 76px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        /* FOOTER */
+    
+        .fc-container-footer {
+            width: 483px;
+            height: 250px;
+        }
+    
+        .fc-rows {
+            width: 403px;
+            height: 250px;
+            margin: 0 40px;
+        }
+
+        .fc-ullist-two {
+            width: 403px;
+            height: 154px;
+        }
+
+    }
 
 /* CLASES UTILITÁRIAS */
 
