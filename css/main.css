@@ -81,7 +81,18 @@
     .fc-box-input {
         width: 364px;
         margin: 0 auto;
+        position: relative;
     }
+
+    .fc-btn-password {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 22px;
+        right: 12px;
+        cursor: pointer;
+    }
+
 
     .fc-box-forgot-pass {
         margin-top: 10px;
