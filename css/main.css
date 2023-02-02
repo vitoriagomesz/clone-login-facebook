@@ -11,7 +11,7 @@
 
     .fc-container-header {
         width: 100%;
-        height: 765px;
+        height: 720px;
     }
     
     .fc-logo {
@@ -54,7 +54,7 @@
         border: none;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10), 0 8px 16px rgba(0, 0, 0, 0.10);
-        padding: 10px 0 28px;
+        padding: 15px 0 28px;
         margin: 82px 0 0;
         display: flex;
         justify-content: center;
@@ -68,6 +68,14 @@
         border-radius: 6px;
         border: 1px solid #DDDFE2;
         font-size: 17px;
+        outline: none;
+    }
+
+    .fc-field:focus {
+        border-color: #1B74E4;
+        box-shadow: 0 0 0 2px #E7F3FF;
+        caret-color: #1B74E4;
+        color: rgb(28, 30, 33);
     }
 
     .fc-box-input {
@@ -119,29 +127,42 @@
 
     .fc-container-footer {
         height: 159px;
-        margin: 0px;
+        margin: 0;
         padding-top: 20px;
         font-size: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .fc-rows {
         width: 980px;
-        margin: 0 30px;
-        display: block;
+        height: 139px;
+        margin: 0 auto;
     }
 
     .fc-ullist {
+        padding-top: 8px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         list-style-type: none;
+        cursor: pointer;
     }
 
-    .fc-ullist li {
-        padding-left: 20px;
+    .fc-ullist li:hover {
+        text-decoration: underline;
+    }
+
+    .fc-btn-more-ling {
+        padding: 5px 10px 0px;
+        background-color: #F5F6F7;
+        border: 1px solid #D9D9D9;
+        border-radius: 2px;
+        box-sizing: content-box;
+    }
+
+    .fc-btn-more-ling img {
+        width: 10px;
+        height: 16px;
+        padding-top: 2px;
     }
 
     .fc-line-horizontal {
@@ -151,22 +172,40 @@
         margin-bottom: 8px;
     }
 
-    .fc-ullist-two {
+    .fc-second-row {
         width: 980px;
         height: 58px;
+        display: block;
+    }
+
+    .fc-ullist-two {
+        width: 1000px;
+        height: 58px;
         list-style-type: none;
+        margin-left: -20px;
+        line-height: 1.6;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        cursor: pointer;
     }
 
     .fc-ullist-two li {
         padding-left: 20px;
     }
 
-    .fc-copyright {
-        margin: 20px;
+    .fc-ullist-two li:hover {
+        text-decoration: underline;
     }
+
+    .fc-copyright {
+        margin-top: 20px;
+    }
+
+    .fc-copyright span {
+        font-size: 11px;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -262,3 +301,5 @@
 .fc-btn-small:hover {
     background-color: #39a324;
 }
+
+
